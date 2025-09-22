@@ -38,7 +38,7 @@ function Hero() {
           transition={{ delay: 0.6, duration: 1 }}
         >
           <motion.img
-            src="/src/assets/image/Hero.png"
+            src="/src/assets/image/hero.png"
             alt="Hero Collection"
             className="w-[220px] sm:w-[300px] md:w-[420px] lg:w-[500px] drop-shadow-2xl"
             animate={{ y: [0, -15, 0] }}
