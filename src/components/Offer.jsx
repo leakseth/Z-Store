@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Offer from "../assets/image/Offer.png";
+import OfferImage from "../assets/image/Offer.png";
 
 function Offer() {
   return (
@@ -24,7 +24,7 @@ function Offer() {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end relative lg:left-20 md:left-15">
           <motion.img
-            src={Offer}
+            src={OfferImage}
             alt="Offer"
             className="
               w-[250px] sm:w-[300px] md:w-[380px] lg:w-[450px] 
