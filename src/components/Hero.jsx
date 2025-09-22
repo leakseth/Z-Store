@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Hero from "../assets/image/Hero.png";
 
 function Hero() {
   return (
@@ -38,7 +39,7 @@ function Hero() {
           transition={{ delay: 0.6, duration: 1 }}
         >
           <motion.img
-            src="/src/assets/image/Hero.png"
+            src={Hero}
             alt="Hero Collection"
             className="w-[220px] sm:w-[300px] md:w-[420px] lg:w-[500px] drop-shadow-2xl"
             animate={{ y: [0, -15, 0] }}
