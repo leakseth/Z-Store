@@ -24,7 +24,7 @@ function Offer() {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end relative lg:left-20 md:left-15">
           <motion.img
-            src={OfferImage}
+            src={OfferImage} 
             alt="Offer"
             className="
               w-[250px] sm:w-[300px] md:w-[380px] lg:w-[450px] 
