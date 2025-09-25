@@ -58,7 +58,7 @@ function OrderComplete() {
   alt="ABA QR Code"
 />
 
-<p>Total: ${subtotal.toFixed(2)}</p>
+<p>Total: ${total.toFixed(2)}</p>
 
 
       </div>
